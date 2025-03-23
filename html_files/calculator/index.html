@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="heading">
+                <h3>Calculator</h3>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <input type="number" id="input1" style="height: 25px; border-radius: 20px;text-align: right;">
+                </div>
+                <div class="dropDown">
+                    <select name="operator" id="operatorId">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <input type="number" id="input2" style="height: 25px; border-radius: 20px; text-align: right;">
+                </div>
+                
+                
+            </div>
+            <div class="btn">
+                <button class="b1" id="b1" onclick="calculate()">Result</button>
+            </div>  
+            <div class="label" id="label">
+                <label for="ans" id="ans"></label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
